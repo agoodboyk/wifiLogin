@@ -4,8 +4,8 @@ import requests ,sys ,re ,os ,socket ,time
 reload(sys)
 sys.setdefaultencoding('utf-8')
 TIME_INTERVAL = 60 #检查网络畅通时间间隔
-ACCOUNT = '13247710502' #wifi账号
-PASSWORD = '618769' #wifi密码
+ACCOUNT = '' #wifi账号
+PASSWORD = '' #wifi密码
 def login():
     #s = requests.session()#后面需要session.close()
     url0 = 'http://www.baidu.com'
